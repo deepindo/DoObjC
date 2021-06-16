@@ -1,12 +1,11 @@
 # DoObjC
 
-<img src="https://img.shields.io/github/stars/deepindo/DoObjC.svg">
-<img src="https://img.shields.io/github/forks/deepindo/DoObjC.svg">
-<img src="https://img.shields.io/badge/PR-welcome%20!-brightgreen.svg?colorA=a0cd34">
-
 [![Version](https://img.shields.io/cocoapods/v/DoObjC.svg?style=flat)](https://cocoapods.org/pods/DoObjC)
 [![License](https://img.shields.io/cocoapods/l/DoObjC.svg?style=flat)](https://cocoapods.org/pods/DoObjC)
 [![Platform](https://img.shields.io/cocoapods/p/DoObjC.svg?style=flat)](https://cocoapods.org/pods/DoObjC)
+<img src="https://img.shields.io/github/stars/deepindo/DoObjC.svg">
+<img src="https://img.shields.io/github/forks/deepindo/DoObjC.svg">
+<img src="https://img.shields.io/badge/PR-welcome%20!-brightgreen.svg?colorA=a0cd34">
 
 ## Example
 
