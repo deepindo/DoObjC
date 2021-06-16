@@ -1,0 +1,6 @@
+framework module DoObjC {
+  umbrella header "DoObjC-umbrella.h"
+
+  export *
+  module * { export * }
+}
