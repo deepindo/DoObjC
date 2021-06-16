@@ -63,10 +63,10 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		87C763EB0AB49407E2EA1F39 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		B2F0AB04F15D50AA3C7A5EF6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		87C763EB0AB49407E2EA1F39 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B2F0AB04F15D50AA3C7A5EF6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BA57931F28C88D949C85B010 /* Pods_DoObjC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoObjC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2541AE83C0D003EC04D67D4 /* DoObjC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DoObjC.podspec; path = ../DoObjC.podspec; sourceTree = "<group>"; };
+		C2541AE83C0D003EC04D67D4 /* DoObjC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DoObjC.podspec; path = ../DoObjC.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				30424B6790A0C715800E1DA6 /* Pods-DoObjC_Tests.debug.xcconfig */,
 				38AB86E1B45134F720B53AD7 /* Pods-DoObjC_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -249,6 +248,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = deepin;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = V76KA7P2H4;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -259,6 +261,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -513,6 +516,7 @@
 			baseConfigurationReference = 228974BAEE0CDD3E620C7B0C /* Pods-DoObjC_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V76KA7P2H4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DoObjC/DoObjC-Prefix.pch";
 				INFOPLIST_FILE = "DoObjC/DoObjC-Info.plist";
@@ -529,6 +533,7 @@
 			baseConfigurationReference = 5C24546D6F3399E85E9127BC /* Pods-DoObjC_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V76KA7P2H4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DoObjC/DoObjC-Prefix.pch";
 				INFOPLIST_FILE = "DoObjC/DoObjC-Info.plist";

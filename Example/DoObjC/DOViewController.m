@@ -23,6 +23,8 @@
     self.view.backgroundColor = [UIColor cyanColor];
     
     DoLog(kScreenWidth);
+    
+    DoLog(kScreenHeight);
 }
 
 - (void)didReceiveMemoryWarning
